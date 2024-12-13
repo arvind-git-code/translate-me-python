@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Word Selector</h1>
+    <div class="upload-section">
+        <input type="file" id="excel-file" accept=".xlsx,.xls">
+        <button onclick="processFile()">Process File</button>
+    </div>
+    <div id="results"></div>
+</div>
+{% endblock %} 
